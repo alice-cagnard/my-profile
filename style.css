@@ -1,0 +1,124 @@
+body {
+	background-color:#0F0703; 
+	color : #367F4D;
+	font-family: 'Arima Madurai', cursive;
+	text-align: center;
+}
+
+div {
+	width: 900px;
+	margin: 20px auto;
+
+
+}
+
+h1,a,h3{
+	color: #FFCA3A;
+
+}
+
+h1{
+	font-weight: lighter;
+	font-size: 50px;
+	font-family: 'Lobster', cursive;
+	
+}
+
+h2{
+	color:#D72638;
+	font-weight: lighter;
+	font-size: 40px;
+	font-family: 'Lobster', cursive;
+
+}
+
+h3{
+	font-weight: lighter;
+	font-size: 23px;
+	font-family: 'Lemonada', cursive;
+}
+
+a{
+	text-decoration: none;
+	font-size: 20px
+	transform: color 0.3s ease;
+}
+
+a:hover {
+	color : #D72638 ;
+
+}
+
+p {
+	color : #367F4D;
+	font-size: 12px
+	font-weight: 800;
+	font-family: 'Arima Madurai', cursive;
+}
+
+
+.img-circle {
+ border-radius: 50%; 
+}
+
+.btn-green {
+	background-color: #367F4D;
+	padding : 10px 15px;
+	border-radius: 5px
+}
+.btn-green:hover {
+	background-color: #FFCA3A;
+	color : #367F4D ;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px
+}
+
+.list-inline li {
+	display: inline;
+	padding: 15px
+}
+
+.list-inline i {
+font-size: 60px
+
+}
+
+#space-btn p {
+	margin-bottom: 50px
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 600px;
+  }
+}
+@media (max-width: 620px) {
+  .container {
+    width: 350px;
+  }
+}
+@media (max-width: 400px) {
+  .container {
+    width: 200px;
+  }
+}
+@media (max-width: 220px) {
+  .container {
+    width: 75px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
